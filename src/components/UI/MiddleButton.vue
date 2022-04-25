@@ -2,7 +2,7 @@
   <button class="middle-btn">
     <slot></slot>
     <span class="middle-btn__circle">
-      <img src="@/assets/img/arrow-down-btn.svg" alt="">
+      <img src="@/assets/img/for-buttons/arrow-right-btn.svg" alt="">
     </span>
   </button>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <button class="big-btn">
     <span class="big-btn__circle">
-      <img src="@/assets/img/arrow-down-btn.svg" alt="">
+      <img src="@/assets/img/for-buttons/arrow-down-btn.svg" alt="">
     </span>
     <slot class="slot"></slot>
   </button>
@@ -21,6 +21,9 @@ export default {
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
+    &:hover {
+      text-decoration: underline;
+    }
     &__circle {
       display: flex;
       align-items: center;
