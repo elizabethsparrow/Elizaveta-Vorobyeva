@@ -5,10 +5,12 @@ import styles from '../public/index.css'
 import UI from './components/UI/index.js'
 
 let app = createApp(App)
-app.use(router).use(styles).mount('#app')
-
+app.use(router).use(styles)
 UI.forEach(elem => {
-  app.use(elem)
+  app.component(elem.name, elem)
 });
+
+
+app.mount('#app')
 
 

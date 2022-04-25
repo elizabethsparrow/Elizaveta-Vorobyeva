@@ -45,9 +45,14 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   max-width: 1516px;
   margin: auto;
 }
-@media screen and (max-width: 362px) {
+@media screen and (max-width: 450px) {
   .container {
     max-width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 290px;
   }
 }
 /* ------------------------------------------------------------------- */
@@ -72,7 +77,6 @@ p {
   font-weight: 400;
   line-height: 26px;
 }
-
 @media screen and (max-width: 362px) {
   h1 {
     font-weight: 600;
