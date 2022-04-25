@@ -1,7 +1,7 @@
 <template>
   <button class="big-btn">
     <span class="big-btn__circle">
-      <img src="img/arrow-down-btn.svg" alt="">
+      <img src="@/assets/img/arrow-down-btn.svg" alt="">
     </span>
     <slot class="slot"></slot>
   </button>

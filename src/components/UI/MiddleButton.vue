@@ -2,7 +2,7 @@
   <button class="middle-btn">
     <slot></slot>
     <span class="middle-btn__circle">
-      <img src="img/arrow-down-btn.svg" alt="">
+      <img src="@/assets/img/arrow-down-btn.svg" alt="">
     </span>
   </button>
 </template>
@@ -21,6 +21,9 @@ export default {
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+    &:hover {
+      text-decoration: underline;
+    }
     &__circle {
       display: flex;
       align-items: center;
