@@ -102,5 +102,13 @@ p {
 /* -------------------------------------------------------------------- */
 
 /* global mobile styles */
+._mobile-visible {
+  display: none;
+}
+@media screen and (max-width: 450px) {
+  ._mobile-visible {
+    display: block;
+  }
+}
 
 /* -------------------------------------------------------------------- */

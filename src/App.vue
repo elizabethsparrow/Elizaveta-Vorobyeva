@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <navigation-menu></navigation-menu>
     <div class="container">
       <h1>Heading 1</h1>
       <h2>Heading 2</h2>
@@ -12,7 +13,9 @@
 </template>
 
 <script>
+import NavigationMenu from '@/components/NavigationMenu.vue'
 export default {
+  components: {NavigationMenu},
   setup() {
     return {
     }
