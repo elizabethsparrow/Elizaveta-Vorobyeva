@@ -42,18 +42,53 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 .container {
   position: relative;
-  max-width: 1020px;
+  max-width: 1516px;
   margin: auto;
+}
+@media screen and (max-width: 362px) {
+  .container {
+    max-width: 320px;
+  }
 }
 /* ------------------------------------------------------------------- */
 
 /* global fonts styles */
 body {
   font-family: 'Jost', sans-serif;
+  color: #2D2D2F;
 }
 h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 64px;
+  line-height: 70px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 362px) {
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+  }
 }
 /* -------------------------------------------------------------------- */
 
