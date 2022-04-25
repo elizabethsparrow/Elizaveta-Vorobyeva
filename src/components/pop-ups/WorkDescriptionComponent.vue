@@ -1,5 +1,5 @@
 <template>
-  <div class="free-consultation">
+  <div class="work-descr-pop-up">
 
   </div>
 </template>

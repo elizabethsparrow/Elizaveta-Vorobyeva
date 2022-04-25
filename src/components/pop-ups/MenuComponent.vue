@@ -1,5 +1,5 @@
 <template>
-  <div class="free-consultation">
+  <div class="navigation-menu-pop-up">
 
   </div>
 </template>
