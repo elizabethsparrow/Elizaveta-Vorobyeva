@@ -6,6 +6,7 @@
       <p>blah blah blah</p>
       <big-button>Заказать услугу</big-button>
       <middle-button>Узнать больше</middle-button>
+      <small-button>Смотреть больше</small-button>
     </div>
   </div>
 </template>
